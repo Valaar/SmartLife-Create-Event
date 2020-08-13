@@ -52,13 +52,10 @@
 
     <distributionManagement>
         <repository>
-            <id>releases</id>
-            <url>https://github.com/Valaar/SmartLife-Create-Event.git</url>
+            <id>test.repo</id>
+            <name>test.repo</name>
+            <url>C:\test.repo</url>
         </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <url>https://github.com/Valaar/SmartLife-Create-Event.git</url>
-        </snapshotRepository>
     </distributionManagement>
 
     <build>
