@@ -53,11 +53,11 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin/3.0.0-M1</url>
+            <url>https://github.com/Valaar/SmartLife-Create-Event.git</url>
         </repository>
         <snapshotRepository>
             <id>snapshots</id>
-            <url>https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin/3.0.0-M1</url>
+            <url>https://github.com/Valaar/SmartLife-Create-Event.git</url>
         </snapshotRepository>
     </distributionManagement>
 
