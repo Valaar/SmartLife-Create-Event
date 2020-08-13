@@ -53,7 +53,7 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>http://localhost:8080//content/repositories/releases</url>
+            <url>http://maven.apache.org/POM/4.0.0</url>
         </repository>
     </distributionManagement>
 
