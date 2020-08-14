@@ -53,7 +53,7 @@
     <distributionManagement>
         <repository>
             <id>releases</id>
-            <url>http://maven.apache.org/POM/4.0.0</url>
+            <url>http://maven.apache.org/xsd/maven-4.0.0.xsd</url>
         </repository>
     </distributionManagement>
 
