@@ -1,16 +1,10 @@
-<settings>
-    <servers>
-        <server>
-            <!-- server id should be equal to repository id -->
-            <id>website</id>
-            <!-- default nexus deploy user -->
-            <username>deployment</username>
-            <password>deployment123</password>
-        </server>
-        <server>
-            <id>staging</id>
-            <username>deployment</username>
-            <password>deployment123</password>
-        </server>
-    </servers>
-</settings>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <test name="Regression1"   >
+        <packages>
+            <package name="SmartLife" />
+        </packages>
+    </test>
+</suite>
+
