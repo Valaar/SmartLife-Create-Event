@@ -74,7 +74,7 @@ public class TestSmartLifeCreateEvent {
         JavascriptExecutor executor1 = (JavascriptExecutor)driver;
         executor.executeScript("arguments[0].click();", element1);
 
-        Thread.sleep(2000);
+        Thread.sleep(6000);
 
         assertTrue(driver.findElement(By.cssSelector(".title")).getText().contains("Autotest Event Community")); //check name of event
 
